@@ -15,6 +15,14 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
 }
+/**header border needs fixing**/
+/**
+.header .border{
+  width: 100%;
+  height: 2px;
+  background-color: #cccccc;
+}
+**/
 
 .topLeft {
   background-color: #4aaaa5;
@@ -37,7 +45,7 @@ body {
 
 /*main bottom section*/
 .main{
-  background: url("../img/papyrus.png"); 
+  background: url("../img/gravel.png"); 
   padding: 20px;
 }
 
@@ -55,16 +63,27 @@ body {
   padding: 10px;
   border: #4aaaa5;
 }
-.articleTitle hr{
+
+.articleTitle .border{
   width: 99%;
+  height: 2px;
+  background-color: #cccccc;
 }
 
 .articleBody{
-  color:red;
+
 }
 
 .articleBody img{
   float: left;
-  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.articleBody p{
+  letter-spacing: 2px;
+  margin-left: 20px;
+  margin-right:20px;
 }
 

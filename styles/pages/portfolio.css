@@ -2,8 +2,13 @@
     display: flex;
     flex-flow: wrap;
     flex-grow: 1;
-    width: 100%
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
   }
+
+
   
   .gridItem {
     position: relative;
@@ -28,5 +33,6 @@
     height: 250px;
     width: 350px;
     margin: 15px;
+
   }
   

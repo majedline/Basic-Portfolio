@@ -4,7 +4,9 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #777777;
-  background-color: #ffffff;
+  background-color: #777777;
+  margin: 0px;
+  padding:0px;
   }
 
 .lineBreakTop{
@@ -20,6 +22,14 @@ body {
 }
 
   /*header section*/
+
+  .headerWrapper{
+    width: 100%;
+    background-color:#ffffff;
+    padding: 0px;
+    margin:0px;
+  } 
+
 .header{
     width: 960px;
     height: 75px;
@@ -28,20 +38,20 @@ body {
     text-align: center;
   }
 
-.topLeft {
+.header .topLeft {
   background-color: #4aaaa5;
   color: #ffffff;
   float: left;
   width:300px;
 }
 
-.nav{
+.header .nav{
   float: right;
   color:#999999;
   padding: 20px;
 }
 
-.nav a{
+.header .nav a{
   color:#999999;
   padding-right: 20px;
   padding-left: 20px;
@@ -53,7 +63,7 @@ body {
   padding: 20px;
 }
 
-.article{
+.main .article{
   width: 960px;
   background-color: #ffffff;
   margin: auto;
@@ -62,26 +72,26 @@ body {
   border-color:#dddddd;
 }
 
-.articleTitle{
+.main .article .articleTitle{
   color: #4aaaa5;
   padding: 10px;
   border: #4aaaa5;
 }
 
-.articleTitle .lineBreak{
+.main .article .articleTitle .lineBreak{
   width: 99%;
   height: 2px;
   background-color: #cccccc;
 }
 
-.articleBody img{
+.main .article .articleBody img{
   float: left;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
 }
 
-.articleBody p{
+.main .article .articleBody p{
   letter-spacing: 2px;
   margin-left: 20px;
   margin-right:20px;
@@ -92,12 +102,8 @@ body {
   background-color: #777777;  
   color: #cccccc;
   text-align: center;
-  
+  position: relative;
+  bottom: 0; 
 }
 
- .footer p{
-  padding:0px;
-  margin:0px;
-
-} 
 

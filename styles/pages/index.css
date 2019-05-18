@@ -1,0 +1,12 @@
+.article .articleBody img{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+.article .articleBody p{
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-right:20px;
+  }
